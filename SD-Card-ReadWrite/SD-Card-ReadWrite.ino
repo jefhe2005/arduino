@@ -33,7 +33,7 @@ void setup() {
 
   Serial.print("Initializing SD card...");
 
-  if (!SD.begin(4)) {
+  if (!SD.begin(5)) {
     Serial.println("initialization failed!");
     return;
   }
@@ -75,5 +75,6 @@ void setup() {
 void loop() {
   // nothing happens after setup
 }
+
 
 
